@@ -1,6 +1,7 @@
 # Object tree printing application
 
-Home work 1 - Object tree printing application
+Home work after lesson 1 - Object tree printing application
+Home work after lesson 5 - Add tests with >95% coverage
 
 ## Usage
 Given JSON Object from `data.json` file like this:
@@ -36,4 +37,16 @@ To print tree run,
 
 ```bash
 $ npm start
+```
+
+To test application run,
+
+```bash
+$ npm run test
+```
+
+To test with coverage run,
+
+```bash
+$ npm run test:coverage
 ```
