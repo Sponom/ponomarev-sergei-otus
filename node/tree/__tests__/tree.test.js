@@ -83,13 +83,13 @@ describe('Tree', () => {
   })
 
   describe('#getNextSymbols()', () => {
-    test('works correct', () => {
+    it('works correct', () => {
       expect(getNextSymbols(1, false)).toEqual('│   ');
     });
   })
 
   describe('#getLastSymbols()', () => {
-    test('works correct', () => {
+    it('works correct', () => {
       expect(getLastSymbols(true)).toEqual('    ');
     });
   })
