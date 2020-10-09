@@ -1,0 +1,11 @@
+insert row into users table:
+
+INSERT INTO public.users (username,"firstName","lastName",state,"createdAt","updatedAt","deletedAt") VALUES 
+('testuser','John','Doe','ACTIVE','2020-10-05 09:28:28.334','2020-10-09 15:12:25.692',NULL)
+;
+
+insert row into posts table:
+
+INSERT INTO public.posts (title,description,"content","userId","createdAt","updatedAt","deletedAt") VALUES 
+('Article title','Short description','Full content of article.',1,'2020-10-07 09:00:04.140','2020-10-09 15:02:24.649',NULL)
+;
